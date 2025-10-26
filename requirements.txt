@@ -2,3 +2,4 @@ aiogram
 pybalt
 PyYAML
 click
+python-dotenv
