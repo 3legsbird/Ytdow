@@ -12,7 +12,7 @@ from aiohttp import web
 
 # Configuration
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6016299216:AAGCFNMr_LXS9eP6oPoxVDRxneXvyBfVvGQ")
-WEBHOOK_HOST = os.getenv("WEBHOOK_HOST", "https://your-app.render.com")  # Your domain
+WEBHOOK_HOST = os.getenv("WEBHOOK_HOST", "https://telegram-bot-t.onrender.com")  # Your domain
 WEBHOOK_PATH = f"/webhook/{BOT_TOKEN}"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
