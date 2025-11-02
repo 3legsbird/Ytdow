@@ -119,14 +119,14 @@ async def download_content(message: types.Message, url: str, content_type: str, 
                 await bot.send_audio(
                     chat_id=message.chat.id,
                     audio=audio_file,
-                    caption="🎵 Mana siz so'ragan audio!"
+                    caption="🎵 @SnapTubeXBot"
                 )
             else:
                 video_file = FSInputFile(abs_path)
                 await bot.send_video(
                     chat_id=message.chat.id,
                     video=video_file,
-                    caption="🎬 Mana siz so'ragan video!"
+                    caption="🎬 @SnapTubeXBot "
                 )
             
             logger.info("✅ Fayl muvaffaqiyatli yuborildi!")
