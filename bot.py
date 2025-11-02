@@ -11,7 +11,7 @@ from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_applicati
 from aiohttp import web
 
 # Configuration
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6016299216:AAGCFNMr_LXS9eP6oPoxVDRxneXvyBfVvGQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8587325148:AAEte0wJsoHP_4k5XVp1UZQ5pwtN7hN4eUQ")
 WEBHOOK_HOST = os.getenv("WEBHOOK_HOST", "https://telegram-bot-t.onrender.com")  # Your domain
 WEBHOOK_PATH = f"/webhook/{BOT_TOKEN}"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
